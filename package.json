@@ -1,0 +1,24 @@
+{
+  "name": "curso-angular4-avanzado-backend",
+  "version": "1.0.0",
+  "description": "API RESTfull del proyecto del curso de angular 4 avanzado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Javier Escolar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.19.1",
+    "mongoose": "^4.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
