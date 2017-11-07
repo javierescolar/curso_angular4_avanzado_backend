@@ -48,7 +48,10 @@ function saveUser(req,res) {
                   if(!userStore){
                     res.status(404).send({message:'No se ha registrado el usuairo'});
                   } else {
-                    res.status(200).send({message:'Usuario guardado'});
+                    res.status(200).send({
+                      message:'Usuario guardado',
+                      user: userStore
+                    });
                   }
                 }
               });
