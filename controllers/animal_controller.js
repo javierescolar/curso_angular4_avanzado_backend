@@ -64,7 +64,7 @@ function getAnimals(req, res) {
           message:'animales no encontrados'
         });
       } else {
-        res.status(404).send({
+        res.status(200).send({
           message:'animales encontrados',
           animals: animals
         });
